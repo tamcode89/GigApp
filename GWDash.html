@@ -7,13 +7,10 @@
   <link rel="stylesheet" href="GigWorkStyle.css">
 </head>
 <body>
+
 <header>
   <a href="GWRole.html" class="back-arrow">&#8592;</a>
   <h1><span>Gig</span>Work</h1>
-  <div class="nav-icons">
-    <a href="GWIndex.htmlW">🏠</a>
-    <a href="GWDash.html">👤</a>
-  </div>
 </header>
 
 
@@ -29,8 +26,9 @@
       </div>
     </div>
 
-    <button class="btn">+ POST NEW GIG</button>
-    <button class="btn">CHECK APPLICATIONS</button>
+    <a href="GWPostGig.html"> <button class="btn">POST NEW GIG</button></a>
+    <a href="GWViewApp.html"> <button class="btn">CHECK APPLICATIONS</button></a>
+    <a href="GWMyPostedGigs.html"> <button class="btn">ACTIVE GIGS</button></a>
 
     <h3 style="margin: 1.5rem 0 1rem;">Recent Gigs</h3>
 
@@ -49,8 +47,12 @@
     </div>
   </main>
 
-  <footer>
-    <a href="#">gigwork.com/dashboard</a>
-  </footer>
+ 
+
+   <!-- ===== Bottom Navigation Bar ===== -->
+<nav class="bottom-nav">
+  <a href="GWRole.html" class="active">🏠<br><span>Home</span></a>
+  <a href="GWProfile.html">👤<br><span>Profile</span></a>
+</nav>
 </body>
 </html>
